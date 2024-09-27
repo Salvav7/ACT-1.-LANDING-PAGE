@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Música</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="x.png" alt="Logo de la página">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#cantantes">Cantantes</a></li>
+                <li><a href="#albumes">Álbumes</a></li>
+                <li><a href="#conciertos">Conciertos</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a X, tu portal para las últimas noticias de música, información sobre cantantes, álbumes y conciertos.</p>
+        </section>
+
+        <section id="noticias">
+            <h2>Noticias</h2>
+            <p>Mantente al día con las últimas noticias del mundo de la música. Desde lanzamientos de nuevos sencillos hasta los escándalos más recientes.</p>
+        </section>
+
+        <section id="cantantes">
+            <h2>Cantantes</h2>
+            <p>Descubre información sobre tus cantantes favoritos, sus biografías, discografías y próximas giras.</p>
+        </section>
+
+        <section id="albumes">
+            <h2>Álbumes</h2>
+            <p>Revisa reseñas de los últimos álbumes lanzados, así como clásicos que han marcado la historia de la música.</p>
+        </section>
+
+        <section id="conciertos">
+            <h2>Conciertos</h2>
+            <p>Encuentra información sobre próximos conciertos, festivales y eventos en vivo cerca de ti.</p>
+        </section>
+
+        <section id="video">
+            <h2>Video</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros para más información o para colaborar en nuestro portal musical.</p>
+            
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Redes sociales:</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
